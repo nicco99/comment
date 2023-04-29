@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Comment Dropdown",
+  "version": "1.0",
+  "description": "Adds a dropdown menu next to people's comments.",
+ 
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["contentScript.js"]
+    }
+  ]
+}
